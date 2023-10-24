@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+    <title>Home || Lorem Ipsum</title>
+    <link rel="icon" type="image/x-icon" href="">
+  </head>
+  <body>
+
+    <!-- NAVBAR SECTION -->
+    <div class="mainbox autoheight width100 centered">
+    <div class="navbar-area" style="background-color: #fff;">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="logo-container">
+          <img src="" class="navbar-brand" href=""></img>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+              <li class="nav-item navbutton">
+                <a class="nav-link themeaccent active mainfont bold" aria-current="page" href="index.html"><span>Home</span></a>
+              </li>
+              <li class="nav-item navbutton">
+                <a class="nav-link mainfont bold" href="#calculatorbackground"><span>Plans</span></a>
+              </li>
+            
+             </ul>        
+          </div>
+        </div>
+      </nav>
+      </div>
+    </div>
+    <!-- NAVBAR SECTION END -->
+ 
+ <section class="mainsection">
+<div class="mainbox nopad fulautoheight width70 whitebackground shadowed">
+<div class="mainrow centered width100">
+    <div class="mainbox themeaccent width100 imagebox perfectbackground backgroundcontain" style="background-image: url(images/Consulting-pana.svg);"></div>
+    <div class="mainbox autoheight centered width70">
+        <h1 class="mainfont greenfont margin20">Login</h1>
+        <form class="width100" novalidate>
+            <div class="width100">
+              <input type="text" class="form-control" id="validationCustom01" placeholder="Enter name" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="width100 margintop10">
+              <input type="text" class="form-control" id="validationCustom02" placeholder="Enter Password" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+
+            <button class="btn-custom btn-six margin20" id="calulatorshowbutton" onclick="showcalculator()">
+                <span class="whitefont" onclick="">Login</span>
+              </button>
+              </form>
+    </div>
+</div>
+</div>
+ </section>
+    
+     <!-- THIRD SECTION -->
+     <section class="mainsection blueishwhite" id="offersection">
+<h1 class="font-large greenfont mainfont">What We Offer</h1>
+<h3 class="darkfont accentfont">Our Exclusive Services For You</h3>
+<div class="mainrow margin20">
+  <div class="mainbox centered lesserpad autoheight width100">
+    <div class="mainbox centered autoheight lesspad width100">
+      <div class="iconcontainer squared lesserpad autoheight autowidth">
+      <div class="iconlarge perfectbackground margin20 backgroundcontain" style="background-image: url(images/documents.png);"></div>
+    </div>
+      <h3 class="greenfont centertext mainfont bold">Insurance <br> Consulting</h3>
+      <p class="darkfont centertext margin10 accentfont">Don't know where to start? Our experts will help you right from scratch.</p>
+    </div>
+  </div>
+  <div class="mainbox lesserpad autoheight width100 ">
+    <div class="mainbox centered autoheight lesspad width100">
+      <div class="iconcontainer squared lesserpad autoheight autowidth">
+        <div class="iconlarge perfectbackground margin20 backgroundcontain" style="background-image: url(images/retirementplan.png);"></div>
+      </div>
+      <h3 class="greenfont centertext mainfont bold">Retirement <br> Planning</h3>
+      <p class="darkfont centertext margin10 accentfont">retirement is a big deal but once you're with us, we'll make sure that it's a surety to you.</p>
+    </div>
+  </div>
+  <div class="mainbox lesserpad autoheight width100">
+    <div class="mainbox centered lesspad autoheight width100">
+      <div class="iconcontainer squared lesserpad autoheight autowidth">
+        <div class="iconlarge perfectbackground margin20 backgroundcontain" style="background-image: url(images/transparency.png);"></div>
+      </div>
+      <h3 class="greenfont centertext mainfont bold">Transparent<br>Documentation</h3>
+      <p class="darkfont centertext margin10 accentfont">Our services are always transparent so at any point of our journey, you're dealing with trust.</p>
+    </div>
+  </div>
+  <div class="mainbox lesserpad autoheight width100 ">
+    <div class="mainbox centered lesspad autoheight width100">
+      <div class="iconcontainer squared lesserpad autoheight autowidth">
+        <div class="iconlarge perfectbackground margin20 backgroundcontain" style="background-image: url(images/moneyservices.png);"></div>
+      </div>
+      <h3 class="greenfont centertext mainfont bold">Easy <br> Liquidity</h3>
+      <p class="darkfont centertext margin10 accentfont">The world class features which will give you your final amount now plus your premium for the next decade.</p>
+    </div>
+  </div>
+</div>
+</section>
+<!-- THIRD SECTION END -->
+
+
+<!-- MAIN WORK SECTION -->
+<section class="mainsection" style="overflow: auto;" id="calculatorbackground" >
+<!-- CALCULATOR SECTION -->
+  <div class="calcubox mainbox nopad forcecenter whitebackground absolutepos width70 shadowed" id="calculator_body" style="visibility: hidden; display: flex; justify-content: center; align-items: center; height: 500px;">
+   
+    <div class="mainbox autoheight nopad width100 rightaligned">
+      <button class="blueishwhite" style="margin-right: 10px; padding: 5px 15px; color: #285430;" onclick="calculatorclose()">Close</button>
+    </div>
+
+    <div class="mainrow autoheight">
+      <div class="mainbox centered width70 nopad perfectbackground backgroundcontain" style="background-image: linear-gradient(to bottom, #fff,#ffffffcc, #ffffff00),url(images/moneytree.png);">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">&#x20B9</span>
+          <input type="text" class="form-control" placeholder="Enter the amount" aria-label="Username" aria-describedby="basic-addon1" id="cxamt">
+        </div>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Enter the appropriate plan</option>
+          <option value="1">Monthly</option>
+          <option value="2">Annualy</option>
+        </select>
+
+        <a  class="btn-custom btn-six margin20" id="calulatorshowbutton" onclick="calculateFortune()">
+          <span class="whitefont">Calculate</span>
+        </a>
+
+      </div>
+      
+      <div class="mainbox width70 centered nopad autoheight">
+        <div class="mainrow">
+          <div class="mainbox blueishwhite centered autoheight width100 lesserpad">
+          <h1 class="greenfont mainfont" id="emi">0</h1>
+          <p class="smallfont">Your monthly EMI</p>
+        </div>
+        <div class="mainbox centered nopad autoheight">
+          <h1 class="greenfont mainfont centertext" id="pocketmoney">0</h1>
+          <p class="smallfont centertext">Your Pocket Money <br> Per month for the next 30 years</p>
+        </div>
+        </div>
+        <div class="mainrow margin10">
+          <div class="mainbox lesserpad autoheight width100 themeaccent centered">
+            <h1 class="mainfont greenfont" id="mature">0</h1>
+            <p class="smallfont centertext">Maturity Amount</p>
+          </div>
+          <div class="mainbox lesserpad autoheight width100 themeaccent borderright centered">
+            <h3 class="accentfont greenfont" id="times">0</h3>
+            <p class="smallfont">Capital Gained</p>
+          </div>
+        </div>
+        <div class="mainrow ">
+          <div class="mainbox lesspad autoheight width100 blueishwhite centered">
+            <h1 class="mainfont greenfont bold" id="profit">0</h1>
+            <p class="smallfont centertext">Profit Earned <br> <span style="color: red;"> Please note that the amounts are exclusive of all taxes.</span></p>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+      <p class="accentfont darkfont smallfont">Monthly Pocket Money: The Amount You will receive per month after the first 10 years for the next 30 years from that period.</p>
+      <p class="accentfont darkfont smallfont lesse" style="margin-bottom: 10px;">Maturity Amount: The final amount you will receive after the 30 year standard tenure.</p>
+  </div>
+  <!-- CALCULATOR SECTION END -->
+
+  <!-- PLANS SECTION -->
+  <h1 class="font-large mainfont greenfont">Our Plans</h1>
+  <h3 class="darkfont accentfont">We offer the best plans in the market</h3>
+  <table class="styled-table margin20" >
+    <thead>
+        <tr>
+            <th>Annual Premium</th>
+            <th>Premium In Years</th>
+            <th>Total Years</th>
+            <th>Income In Years</th>
+            <th>Total Premium</th>
+            <th>Guaranteed Annual Premium</th>
+            <th>Total Guaranteed Benefit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>100000</td>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>1000000</td>
+            <td>100000</td>
+            <td>4000000</td>
+        </tr>
+         <tr class="active-row">
+            <td>200000</td>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>2000000</td>
+            <td>200000</td>
+            <td>8000000</td>
+        </tr>
+        <tr>
+          <td>300000</td>
+          <td>10</td>
+          <td>10</td>
+          <td>30</td>
+          <td>3000000</td>
+          <td>300000</td>
+          <td>12000000</td>
+      </tr>
+
+      <tr class="active-row">
+        <td>400000</td>
+        <td>10</td>
+        <td>10</td>
+        <td>30</td>
+        <td>4000000</td>
+        <td>400000</td>
+        <td>16000000</td>
+    </tr>
+
+    <tr>
+      <td>500000</td>
+      <td>10</td>
+      <td>10</td>
+      <td>30</td>
+      <td>5000000</td>
+      <td>500000</td>
+      <td>20000000</td>
+  </tr>
+
+  <tr class="active-row">
+    <td>600000</td>
+    <td>10</td>
+    <td>10</td>
+    <td>30</td>
+    <td>6000000</td>
+    <td>600000</td>
+    <td>24000000</td>
+</tr>  
+
+<tr>
+  <td>700000</td>
+  <td>10</td>
+  <td>10</td>
+  <td>30</td>
+  <td>7000000</td>
+  <td>700000</td>
+  <td>28000000</td>
+</tr>
+ <!-- and so on... -->
+    </tbody>
+</table>
+
+
+<h6 class="greenfont mainfont lightfont centertext width70 margin10">Please note that the customer shall be liable for a 5% tax on the invested amount as per the government law example: if you are investing &#x20B9 2000 per month, you will be liable for 5% on &#x20B9 2000 which is &#x20B9 2100 per month.</h6>
+
+<div class="mainbox nopad autoheight width100 lesspad centered">
+  <a  class="btn-custom btn-six" id="calulatorshowbutton" onclick="showcalculator()">
+    <span class="whitefont" onclick="">Calculate your fortune</span>
+  </a>
+</div>
+<!-- PLANS SECTION END -->
+</section>
+<!-- MAIN WORK SECTION -->
+
+
+<!-- Footer -->
+<footer class="text-center whitebackground text-lg-start text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <img src="images/mainlogo.png" class="navbar-brand logolarge" href=""></img>
+          <p class="mainfont bold">
+           Our Green Back, Your Financial Peace Of Mind
+          </p>
+        </div>
+        <!-- Grid column -->
+
+   
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Terms and conditions</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Calculate</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Plans</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> Sco 264, Urban Estate, Phase-I, Patiala</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            info@bgblackstone.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Org name.</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="ourwork.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  
+  
+
+  </body>
+</html>
